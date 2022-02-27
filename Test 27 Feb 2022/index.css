@@ -1,0 +1,93 @@
+body{
+    margin: 3%;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.top{
+    height: 50%;
+}
+.red{
+    background-color: #ee1c25;
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.red p{
+    padding-top: 35%;
+}
+.pink{
+    background-color: #ed008c;
+    width: 10%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+.pink p{
+    padding-top: 86%;
+}
+.yellow{
+    background-color: #fff200;
+    width: 65%;
+    height: 50%;
+    float: left;
+    text-align: center;
+}
+.yellow p{
+    padding-top: 5%;
+}
+.green{
+    background-color: #009445;
+    width: 65%;
+    height: 50%;
+    float: left;
+    text-align: center;
+}
+.green p{
+    padding-top: 5%;
+}
+.bottom{
+    height: 50%;
+}
+.orange{
+    background-color: #f7941e;
+    width: 62.5%;
+    height: 50%;
+    float: left;
+    text-align: center; 
+}
+.orange p{
+    padding-top: 5%;
+}
+.skyblue{
+    background-color: #00aeef;
+    width: 12.5%;
+    height: 50%;
+    float: left;
+    text-align: center;
+}
+.skyblue p{
+    padding-top: 25%;
+}
+.purple{
+    background-color: #662d91;
+    width: 25%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+.purple p{
+    padding-top: 35%;
+}
+.brown{
+    background-color: #c49a6c;
+    width: 75%;
+    height: 50%;
+    float: left;
+    text-align: center;
+}
+.brown p{
+    padding-top: 5%;
+}
