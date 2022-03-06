@@ -1,0 +1,288 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    font-size: 20px;
+    font-style: oblique;
+    color: #f8e6e2;
+    letter-spacing: 0.04em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2874f0;
+}
+.about_page{
+    background-image: url('./Images/bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -20px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+#mobile_brands{
+    width: 80vw;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#mobile_brands div{
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    margin: 8px;
+    border: 2px solid black;
+}
+#mobile_brands img{
+    height: 100px;
+    width: 200px ;
+}
+figure{
+    text-align: center;
+}
+.apple_products{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 40vw;
+    margin-top: -180px;
+    margin-left: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid yellow;
+}
+.apple_products img{
+    height: 250px;
+    width: 200px;
+}
+
+.apple_products div:first-child span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.apple_products div:first-child{
+    padding: 20px;
+    background-color: yellow;
+}
+.oneplus_products{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 40vw;
+    margin-top: -180px;
+    margin-left: 280px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid yellow;
+}
+.oneplus_products img{
+    height: 250px;
+    width: 200px;
+}
+
+.oneplus_products div:first-child span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.oneplus_products div:first-child{
+    padding: 20px;
+    background-color: yellow;
+}
+.samsung_products{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 40vw;
+    margin-top: -180px;
+    margin-left: 530px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid yellow;
+}
+.samsung_products img{
+    height: 250px;
+    width: 200px;
+}
+
+.samsung_products div:first-child span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.samsung_products div:first-child{
+    padding: 20px;
+    background-color: yellow;
+}
+.xiaomi_products{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 40vw;
+    margin-top: -180px;
+    margin-left: 780px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid yellow;
+}
+.xiaomi_products img{
+    height: 250px;
+    width: 200px;
+}
+
+.xiaomi_products div:first-child span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.xiaomi_products div:first-child{
+    padding: 20px;
+    background-color: yellow;
+}
+.realme_products{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 40vw;
+    margin-top: -10px;
+    margin-left: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid yellow;
+}
+.realme_products img{
+    height: 250px;
+    width: 200px;
+}
+
+.realme_products div:first-child span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.realme_products div:first-child{
+    padding: 20px;
+    background-color: yellow;
+}
+.infinix_products{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 40vw;
+    margin-top: -10px;
+    margin-left: 280px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid yellow;
+}
+.infinix_products img{
+    height: 250px;
+    width: 200px;
+}
+.infinix_products div:first-child span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.infinix_products div:first-child{
+    padding: 20px;
+    background-color: yellow;
+}
+.poco_products{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 40vw;
+    margin-top: -10px;
+    margin-left: 530px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid yellow;
+}
+.poco_products img{
+    height: 250px;
+    width: 200px;
+}
+
+.poco_products div:first-child span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.poco_products div:first-child{
+    padding: 20px;
+    background-color: yellow;
+}
+.nokia_products{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 40vw;
+    margin-top: -10px;
+    margin-left: 780px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid yellow;
+}
+.nokia_products img{
+    height: 250px;
+    width: 200px;
+}
+
+.nokia_products div:first-child span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.nokia_products div:first-child{
+    padding: 20px;
+    background-color: yellow;
+}
+.fade{
+    opacity: 0.5;
+}
+.apple_products_none{
+    display: none;
+}
+.oneplus_products_none{
+    display: none;
+}
+.samsung_products_none{
+    display: none;
+}
+.xiaomi_products_none{
+    display: none;
+}
+.realme_products_none{
+    display: none;
+}
+.infinix_products_none{
+    display: none;
+}
+.poco_products_none{
+    display: none;
+}
+.nokia_products_none{
+    display: none;
+}
+#mobile_brands div:hover{
+    box-shadow: 0 0 10px black;
+}
