@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="./report.css">
+</head>
+
+<body class="day">
+    <div id="logo" class="logo">
+        <div class="text">
+            <p>Weatherly.in</p>
+        </div>
+        <div class="back">
+            <a href="./index.html"><button>Back</button></a>
+        </div>
+    </div>
+
+    <div class="current_weather">
+        <div class="left">
+            <div class="place">
+                <p id="city_n">Indore</p>
+            </div>
+            <div class="reports">
+                <div class="temp">
+                    <p>Temperature</p>
+                    <p id="act_temp">100</p>
+                </div>
+                <div class="max_temp">
+                    <p>Maximum Temperature</p>
+                    <p id="max_temp">500</p>
+                </div>
+                <div class="min_temp">
+                    <p>Minimum Temperature</p>
+                    <p id="min_temp">455</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather">
+            <div class="info">
+                <p id="condition">Clear</p>
+                <p id="description">Clouds are none</p>
+            </div>
+            <div class="weather_icon">
+                <img src="./Data/Icons/01d.png" id="weather_png">
+            </div>
+        </div>
+    </div>
+    <script src="./report.js"></script>
+</body>
+
+</html>
